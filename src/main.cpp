@@ -16,6 +16,8 @@
 #define PBSTR "||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
 #define PBWIDTH 60
 
+#define OIDN_DENOISE
+//#define GAUSS_DENOISE
 inline void printProgress(float percentage) {
   int val = (int)(percentage * 100);
   int lpad = (int)(percentage * PBWIDTH);
@@ -48,14 +50,32 @@ int main(int argc, char **argv) {
             CameraSample{sampler->next2D()}, NDC);
         li += integrator->li(ray, *scene, sampler);
       }
-      camera->film->deposit({x, y}, li / spp);
+#ifdef OIDN_DENOISE
+      camera->film->OIDN_AddSample({x, y}, li / spp);
+#endif
 
+#ifdef GAUSS_DENOISE
+        camera->film->GAUSS_AddSample({x, y}, li / spp);
+#endif
       int finished = x + y * width;
       if (finished % 5 == 0) {
         printProgress((float)finished / (height * width));
       }
     }
   }
+
+#ifdef GAUSS_DENOISE
+  //denoise
+  for (int y = 0; y < height; ++y) {
+      for (int x = 0; x < width; ++x) {
+          camera->film->GAUSS_deposit({x, y});
+      }
+  }
+#endif
+
+#ifdef OIDN_DENOISE
+    camera->film->OIDN_deposit({0, 0});
+#endif
   printProgress(1.f);
 
   auto end = std::chrono::system_clock::now();
@@ -75,4 +95,5 @@ int main(int argc, char **argv) {
   } else {
     std::cout << "Only support output as PNG/HDR\n";
   }
+
 }

@@ -1,4 +1,6 @@
 #include "Disk.h"
+
+#include <cmath>
 #include "ResourceLayer/Factory.h"
 bool Disk::rayIntersectShape(Ray &ray, int *primID, float *u, float *v) const {
     //* todo 完成光线与圆环的相交 填充primId,u,v.如果相交，更新光线的tFar
@@ -8,9 +10,22 @@ bool Disk::rayIntersectShape(Ray &ray, int *primID, float *u, float *v) const {
     //* 4.检验交点是否在圆环内
     //* 5.更新ray的tFar,减少光线和其他物体的相交计算次数
     //* Write your code here.
-    return false;
+    Ray local_ray= this->transform.inverseRay(ray);
+    if(local_ray.direction[2]==0) return false;
+    float t=-local_ray.origin[2]/local_ray.direction[2];
+    if(t<local_ray.tNear||t>local_ray.tFar) return false;
+    Point3f p=local_ray.at(t);
+    Vector3f p_vec(p[0],p[1],p[2]);
+    if(p_vec.length()< this->innerRadius||p_vec.length()>this->radius) return false;
+    double res= std::atan2(p[1],p[0]);
+    if(res<0) res+=2*PI;
+    if(res>this->phiMax) return false;
+    ray.tFar=t;
+    *u=res/ this->phiMax;
+    *v=(p_vec.length()- this->innerRadius)/(this->radius-this->innerRadius);
+    *primID=0;
+    return true;
 }
-
 void Disk::fillIntersection(float distance, int primID, float u, float v, Intersection *intersection) const {
     /// ----------------------------------------------------
     //* todo 填充圆环相交信息中的法线以及相交位置信息
@@ -18,8 +33,12 @@ void Disk::fillIntersection(float distance, int primID, float u, float v, Inters
     //* 2.位置信息可以根据uv计算出，同样需要变换
     //* Write your code here.
     /// ----------------------------------------------------
-
-
+    float dis=v * (this->radius-this->innerRadius) + this->innerRadius;
+    float angle =u*this->phiMax;
+    Point3f p(dis* cosf(angle),dis* sinf(angle),0);
+    intersection->position=this->transform.toWorld(p);
+    Vector3f local_normal(0.0, 0.0, 1.0);
+    intersection->normal=this->transform.toWorld(local_normal);
     intersection->shape = this;
     intersection->distance = distance;
     intersection->texCoord = Vector2f{u, v};

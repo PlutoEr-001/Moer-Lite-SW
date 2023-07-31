@@ -16,8 +16,15 @@ public:
     // 3. return K_d + K_s
     // tips:
     // Phong模型brdf实现不包括环境光项；其I/r^2项包含在光源采样步骤中，因此brdf中不包含I/r^2。
-    Spectrum diffuse{0.f};
-    Spectrum specular{0.f};
+    //v:wo
+    auto local_wi= normalize(toLocal(wi));
+    auto local_wo= normalize(toLocal(wo));
+    Vector3f local_normal={0.0,1.0,0.0};
+    auto l= normalize(local_wi);
+    auto lr= normalize(2*dot(local_wi,local_normal)*local_normal-local_wi);
+    Spectrum diffuse,specular;
+    diffuse=kd*dot(local_normal,l);
+    specular=ks* fmaxf(0.0,powf(dot(local_wo, lr),p));
     return diffuse + specular;
   }
 

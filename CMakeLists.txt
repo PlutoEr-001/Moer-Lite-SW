@@ -64,7 +64,7 @@ add_executable(Moer
   src/ResourceLayer/Image.cpp
   src/ResourceLayer/Mesh.cpp
   src/ResourceLayer/FileUtil.cpp
-  src/FunctionLayer/Shape/Disk.cpp src/FunctionLayer/Shape/Disk.h src/FunctionLayer/Shape/Cone.cpp src/FunctionLayer/Shape/Cone.h src/FunctionLayer/Shape/Cylinder.cpp src/FunctionLayer/Shape/Cylinder.h src/FunctionLayer/Integrator/UVIntegrator.cpp src/FunctionLayer/Integrator/UVIntegrator.h src/FunctionLayer/Acceleration/BVH.cpp src/FunctionLayer/Acceleration/BVH.h)
+  src/FunctionLayer/Shape/Disk.cpp src/FunctionLayer/Shape/Disk.h src/FunctionLayer/Shape/Cone.cpp src/FunctionLayer/Shape/Cone.h src/FunctionLayer/Shape/Cylinder.cpp src/FunctionLayer/Shape/Cylinder.h src/FunctionLayer/Integrator/UVIntegrator.cpp src/FunctionLayer/Integrator/UVIntegrator.h src/FunctionLayer/Acceleration/BVH.cpp src/FunctionLayer/Acceleration/BVH.h src/FunctionLayer/Filter/Filter.cpp src/FunctionLayer/Film/Film.cpp)
 
 target_include_directories(Moer PUBLIC ./externals)
 target_include_directories(Moer PUBLIC ./src)
@@ -93,6 +93,11 @@ add_custom_command(TARGET Moer POST_BUILD
   DEPENDS ${LIBS_PATH}/embree3.dll
   COMMAND ${CMAKE_COMMAND} -E copy_if_different
   ${EMBREE_DLL} $<TARGET_FILE_DIR:Moer>)
+
+set(CMAKE_PREFIX_PATH "C:/Program Files (x86)/oidn-2.0.1.x64.windows" ${CMAKE_PREFIX_PATH})
+FIND_PACKAGE(OpenImageDenoise REQUIRED)
+target_link_libraries(Moer PUBLIC OpenImageDenoise)
+
 
 target_link_libraries(Moer PUBLIC embree3)
 target_link_libraries(Moer PUBLIC tinyobjloader)

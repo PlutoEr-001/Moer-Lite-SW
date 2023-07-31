@@ -1,10 +1,12 @@
 #include "Image.h"
-
+#include <OpenImageDenoise/oidn.hpp>
 #define STB_IMAGE_WRITE_IMPLEMENTATION
 #include <stb/stb_image_write.h>
 
 #define STB_IMAGE_IMPLEMENTATION
 #include <stb/stb_image.h>
+
+//get pixel
 Vector3f Image::getValue(const Vector2i &xy) const {
   int x = clamp(xy[0], 0, size[0] - 1);
   int y = clamp(xy[1], 0, size[1] - 1);
@@ -12,11 +14,52 @@ Vector3f Image::getValue(const Vector2i &xy) const {
   return Vector3f(data[offset], data[offset + 1], data[offset + 2]);
 }
 
+void Image::OIDN_deposit(const Vector2i &xy){
+    oidn::DeviceRef device = oidn::newDevice();// CPU or GPU if available
+    if (!device) {
+        // Handle the case where device could not be created.
+        std::cout << "设备创建失败!" << std::endl;
+        return;
+    }
+    device.commit();
+    int width = size[0];
+    int height = size[1];
+    std::vector<float> inputData(width * height * 3);
+    std::vector<float> outputData(width * height * 3);
+    for(int i = 0;i < width * height * 3;i++){
+        inputData[i] = data[i];
+    }
+    oidn::BufferRef colorBuf = device.newBuffer(width * height * 3 * sizeof(float));
+    oidn::BufferRef outBuf = device.newBuffer(width * height * 3 * sizeof(float));
+    colorBuf.write(0, inputData.size() * sizeof(float), inputData.data());
+    oidn::FilterRef oidn_filter = device.newFilter("RT"); // generic ray tracing filter
+    oidn_filter.setImage("color", colorBuf, oidn::Format::Float3, width, height);
+    oidn_filter.setImage("output", outBuf, oidn::Format::Float3, width, height);
+    oidn_filter.commit();
+    oidn_filter.execute();
+    outBuf.read(0, outputData.size() * sizeof(float), outputData.data());
+    const char* errorMessage;
+    if (device.getError(errorMessage) != oidn::Error::None) {
+        std::cout << "OIDN Error: " << errorMessage << std::endl;
+    }
+    for(int i=0; i < outputData.size(); i++){
+        data[i] = outputData[i];
+    }
+}
+
+void Image::GAUSS_deposit(const Vector2i &xy) {
+    int offset = (xy[0] + xy[1] * size[0]) * channels;
+    Spectrum v = contriSum[xy[0] + xy[1] * size[0]];
+    data[offset] = std::max((float)0,v[0]);
+    data[offset + 1] = std::max((float)0,v[1]);
+    data[offset + 2] = std::max((float)0, v[2]);
+}
+
 void Image::setValue(const Vector2i &xy, const Vector3f &val) {
-  int offset = (xy[0] + xy[1] * size[0]) * channels;
-  for (int i = 0; i < 3; ++i) {
-    data[offset + i] = val[i];
-  }
+    int offset = (xy[0] + xy[1] * size[0]) * channels;
+    for (int i = 0; i < 3; ++i) {
+        data[offset + i] = val[i];
+    }
 }
 
 void Image::savePNG(const char *filename) const {
@@ -31,6 +74,15 @@ void Image::savePNG(const char *filename) const {
 void Image::saveHDR(const char *filename) const {
   stbi_write_hdr(filename, size[0], size[1], 3, data);
 }
+
+void Image::addFilterWeigh(const Vector2i &xy, const float val) {
+    filterWeigh[xy[0]+xy[1]*size[0]] += val;
+}
+
+void Image::addContriSum(const Vector2i &xy, Spectrum val) {
+    contriSum[xy[0]+xy[1]*size[0]] += val;
+}
+
 
 std::shared_ptr<Image> loadImage(const char *filepath) {
   bool isHDR = stbi_is_hdr(filepath);

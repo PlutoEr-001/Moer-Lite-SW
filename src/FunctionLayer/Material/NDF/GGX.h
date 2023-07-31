@@ -10,16 +10,24 @@ public:
                      const Vector2f &alpha) const noexcept override {
     // TODO
     // 根据公式即可
-    return 0.f;
+    float squarealpha=alpha[0]*alpha[0],squarecosineTheta=whLocal[1]*whLocal[1];
+    float squaretanTheta=(1-squarecosineTheta)/squarecosineTheta;
+    return squarealpha/(PI*squarecosineTheta*squarecosineTheta*powf(squarealpha+squaretanTheta,2));
   }
   // tips:
   // float getG1(...) {}
+  float getG1(const Vector3f& wlocal,
+              const Vector2f& alpha) const noexcept{
+      float squarecosineTheta = wlocal[1]*wlocal[1];
+      float temp = sqrtf(1+ alpha[0]*alpha[0] *(1 - squarecosineTheta) /squarecosineTheta);
+      return 2/(1+temp);
+  }
   virtual float getG(const Vector3f &woLocal, const Vector3f &wiLocal,
                      const Vector2f &alpha) const noexcept override {
     // TODO
     // 根据公式即可
     // tips: return getG1(wo) * getG1(wi);
-    return 0.f;
+    return getG1(woLocal,alpha)* getG1(wiLocal,alpha);
   }
   virtual float pdf(const Vector3f &woLocal, const Vector3f &whLocal,
                     const Vector2f &alpha) const noexcept override {

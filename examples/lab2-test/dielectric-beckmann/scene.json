@@ -1,6 +1,6 @@
 {
     "output" : {
-      "filename" : "dielectric-beckmann.hdr"
+      "filename" : "dielectric-beckmann.png"
     },
     "sampler" : {
       "type" : "independent",

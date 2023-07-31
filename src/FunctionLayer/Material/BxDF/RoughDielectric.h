@@ -17,9 +17,11 @@ public:
     // 2. 根据公式计算 Fr, D, G
     // 3. return albedo * D * G * Fr / (4 * \cos\theta_o);
     // tips:
-    // 不考虑多重介质，如果光线从真空射入介质，其eta即配置中填写的eta；
+    // 不考虑多重介质，如果光线从真空射入介质，其eta即配置中填写的eta;
     // 如果光线从介质射出，则eta = 1/eta
-    return {0.f};
+    Vector3f local_wi = normalize(toLocal(wi)), local_wo = normalize(toLocal(wo));
+    Vector3f whLocal= normalize(local_wi+local_wo);
+    return albedo * ndf->getD(whLocal, alpha) * ndf->getG(local_wi, local_wo, alpha) * getFr(eta,local_wi[1]) / (4 * local_wo[1]);
   }
 
   virtual BSDFSampleResult sample(const Vector3f &wo,

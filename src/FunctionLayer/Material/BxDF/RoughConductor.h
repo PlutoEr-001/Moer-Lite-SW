@@ -18,7 +18,9 @@ public:
     // 3. return albedo * D * G * Fr / (4 * \cos\theta_o);
     // tips: brdf
     // 中分母的\cos\theta_i项被渲染方程中的cos项消去，因此分母只有4*\cos\theta_o
-    return {0.f};
+    Vector3f local_wi = normalize(toLocal(wi)), local_wo = normalize(toLocal(wo));
+    Vector3f whLocal= normalize(local_wi+local_wo);
+    return albedo * ndf->getD(whLocal, alpha) * ndf->getG(local_wi, local_wo, alpha) * getFr(local_wi[1]) / (4 * local_wo[1]);
   }
 
   virtual BSDFSampleResult sample(const Vector3f &wo,
