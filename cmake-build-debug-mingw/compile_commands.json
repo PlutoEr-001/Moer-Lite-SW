@@ -1,0 +1,272 @@
+[
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\main.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\main.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/main.cpp",
+  "output": "CMakeFiles/Moer.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\CoreLayer\\Math\\Transform.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\CoreLayer\\Math\\Transform.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/CoreLayer/Math/Transform.cpp",
+  "output": "CMakeFiles/Moer.dir/src/CoreLayer/Math/Transform.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Acceleration\\AABB.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Acceleration\\AABB.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Acceleration/AABB.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Acceleration/AABB.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Acceleration\\Acceleration.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Acceleration\\Acceleration.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Acceleration/Acceleration.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Acceleration/Acceleration.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Acceleration\\EmbreeBVH.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Acceleration\\EmbreeBVH.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Acceleration/EmbreeBVH.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Acceleration/EmbreeBVH.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Acceleration\\Linear.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Acceleration\\Linear.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Acceleration/Linear.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Acceleration/Linear.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Acceleration\\Octree.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Acceleration\\Octree.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Acceleration/Octree.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Acceleration/Octree.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Integrator\\NormalIntegrator.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Integrator\\NormalIntegrator.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Integrator/NormalIntegrator.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Integrator/NormalIntegrator.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Integrator\\DirectIntegrator.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Integrator\\DirectIntegrator.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Integrator/DirectIntegrator.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Integrator/DirectIntegrator.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Integrator\\PathIntegrator.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Integrator\\PathIntegrator.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Integrator/PathIntegrator.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Integrator/PathIntegrator.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Integrator\\WhittedIntegrator.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Integrator\\WhittedIntegrator.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Integrator/WhittedIntegrator.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Integrator/WhittedIntegrator.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Camera\\Camera.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Camera\\Camera.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Camera/Camera.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Camera/Camera.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Camera\\Pinhole.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Camera\\Pinhole.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Camera/Pinhole.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Camera/Pinhole.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Scene\\Scene.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Scene\\Scene.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Scene/Scene.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Scene/Scene.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Light\\SpotLight.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Light\\SpotLight.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Light/SpotLight.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Light/SpotLight.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Light\\AreaLight.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Light\\AreaLight.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Light/AreaLight.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Light/AreaLight.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Light\\EnvironmentLight.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Light\\EnvironmentLight.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Light/EnvironmentLight.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Light/EnvironmentLight.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Shape\\Shape.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Shape\\Shape.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Shape/Shape.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Shape/Shape.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Shape\\Triangle.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Shape\\Triangle.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Shape/Triangle.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Shape/Triangle.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Shape\\Cube.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Shape\\Cube.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Shape/Cube.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Shape/Cube.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Shape\\Sphere.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Shape\\Sphere.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Shape/Sphere.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Shape/Sphere.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Shape\\Parallelogram.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Shape\\Parallelogram.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Shape/Parallelogram.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Shape/Parallelogram.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Texture\\NormalTexture.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Texture\\NormalTexture.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Texture/NormalTexture.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Texture/NormalTexture.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Texture\\ImageTexture.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Texture\\ImageTexture.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Texture/ImageTexture.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Texture/ImageTexture.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Texture\\Texture.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Texture\\Texture.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Texture/Texture.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Texture/Texture.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Texture\\Mipmap.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Texture\\Mipmap.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Texture/Mipmap.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Texture/Mipmap.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Material\\Matte.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Material\\Matte.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Material/Matte.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Material/Matte.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Material\\Mirror.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Material\\Mirror.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Material/Mirror.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Material/Mirror.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Material\\Material.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Material\\Material.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Material/Material.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Material/Material.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Material\\Phong.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Material\\Phong.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Material/Phong.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Material/Phong.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Material\\Conductor.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Material\\Conductor.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Material/Conductor.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Material/Conductor.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Material\\Dielectric.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Material\\Dielectric.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Material/Dielectric.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Material/Dielectric.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Material\\OrenNayar.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Material\\OrenNayar.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Material/OrenNayar.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Material/OrenNayar.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Sampler\\IndependentSampler.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Sampler\\IndependentSampler.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Sampler/IndependentSampler.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Sampler/IndependentSampler.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\ResourceLayer\\Image.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\ResourceLayer\\Image.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/ResourceLayer/Image.cpp",
+  "output": "CMakeFiles/Moer.dir/src/ResourceLayer/Image.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\ResourceLayer\\Mesh.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\ResourceLayer\\Mesh.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/ResourceLayer/Mesh.cpp",
+  "output": "CMakeFiles/Moer.dir/src/ResourceLayer/Mesh.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\ResourceLayer\\FileUtil.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\ResourceLayer\\FileUtil.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/ResourceLayer/FileUtil.cpp",
+  "output": "CMakeFiles/Moer.dir/src/ResourceLayer/FileUtil.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Shape\\Disk.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Shape\\Disk.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Shape/Disk.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Shape/Disk.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Shape\\Cone.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Shape\\Cone.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Shape/Cone.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Shape/Cone.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Shape\\Cylinder.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Shape\\Cylinder.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Shape/Cylinder.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Shape/Cylinder.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Integrator\\UVIntegrator.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Integrator\\UVIntegrator.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Integrator/UVIntegrator.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Integrator/UVIntegrator.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Acceleration\\BVH.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Acceleration\\BVH.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Acceleration/BVH.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Acceleration/BVH.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Filter\\Filter.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Filter\\Filter.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Filter/Filter.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Filter/Filter.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE @CMakeFiles/Moer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\Moer.dir\\src\\FunctionLayer\\Film\\Film.cpp.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\src\\FunctionLayer\\Film\\Film.cpp",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Film/Film.cpp",
+  "output": "CMakeFiles/Moer.dir/src/FunctionLayer/Film/Film.cpp.obj"
+},
+{
+  "directory": "C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/externals/tinyobjloader",
+  "command": "C:\\Users\\plutoEr\\Environment\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe -DNOMINMAX -DUNICODE -D_UNICODE  -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\tinyobjloader.dir\\tiny_obj_loader.cc.obj -c C:\\Users\\plutoEr\\CLionProjects\\Moer-lite\\externals\\tinyobjloader\\tiny_obj_loader.cc",
+  "file": "C:/Users/plutoEr/CLionProjects/Moer-lite/externals/tinyobjloader/tiny_obj_loader.cc",
+  "output": "externals/tinyobjloader/CMakeFiles/tinyobjloader.dir/tiny_obj_loader.cc.obj"
+}
+]

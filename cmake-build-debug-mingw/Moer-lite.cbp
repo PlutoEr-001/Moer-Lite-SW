@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Moer-lite"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\Program Files (x86)\;CMake Files\..\..\..\..\Program Files (x86)\oidn-2.0.1.x64.windows\;CMake Files\..\..\..\..\Program Files (x86)\oidn-2.0.1.x64.windows\lib\;CMake Files\..\..\..\..\Program Files (x86)\oidn-2.0.1.x64.windows\lib\cmake\;CMake Files\..\..\..\..\Program Files (x86)\oidn-2.0.1.x64.windows\lib\cmake\OpenImageDenoise-2.0.1\;CMake Files\externals\;CMake Files\externals\tinyobjloader\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Moer">
+				<Option output="C:/Users/plutoEr/CLionProjects/Moer-lite/target/bin/Moer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/plutoEr/CLionProjects/Moer-lite/target/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DNOMINMAX"/>
+					<Add directory="C:/Users/plutoEr/CLionProjects/Moer-lite/./externals"/>
+					<Add directory="C:/Users/plutoEr/CLionProjects/Moer-lite/./src"/>
+					<Add directory="C:/Users/plutoEr/CLionProjects/Moer-lite/./externals/json/include"/>
+					<Add directory="C:/Users/plutoEr/CLionProjects/Moer-lite/./externals/embree/include"/>
+					<Add directory="C:/Users/plutoEr/CLionProjects/Moer-lite/externals/tinyobjloader"/>
+					<Add directory="C:/Program Files (x86)/oidn-2.0.1.x64.windows/include"/>
+					<Add directory="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 Moer"/>
+					<CompileFile command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Moer/fast">
+				<Option output="C:/Users/plutoEr/CLionProjects/Moer-lite/target/bin/Moer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/plutoEr/CLionProjects/Moer-lite/target/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DNOMINMAX"/>
+					<Add directory="C:/Users/plutoEr/CLionProjects/Moer-lite/./externals"/>
+					<Add directory="C:/Users/plutoEr/CLionProjects/Moer-lite/./src"/>
+					<Add directory="C:/Users/plutoEr/CLionProjects/Moer-lite/./externals/json/include"/>
+					<Add directory="C:/Users/plutoEr/CLionProjects/Moer-lite/./externals/embree/include"/>
+					<Add directory="C:/Users/plutoEr/CLionProjects/Moer-lite/externals/tinyobjloader"/>
+					<Add directory="C:/Program Files (x86)/oidn-2.0.1.x64.windows/include"/>
+					<Add directory="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 Moer/fast"/>
+					<CompileFile command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinyobjloader">
+				<Option output="C:/Users/plutoEr/CLionProjects/Moer-lite/target/lib/libtinyobjloader.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/externals/tinyobjloader"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DNOMINMAX"/>
+					<Add directory="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/externals/tinyobjloader/Makefile&quot;  VERBOSE=1 tinyobjloader"/>
+					<CompileFile command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/externals/tinyobjloader/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/externals/tinyobjloader/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/externals/tinyobjloader/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinyobjloader/fast">
+				<Option output="C:/Users/plutoEr/CLionProjects/Moer-lite/target/lib/libtinyobjloader.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/externals/tinyobjloader"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DNOMINMAX"/>
+					<Add directory="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/externals/tinyobjloader/Makefile&quot;  VERBOSE=1 tinyobjloader/fast"/>
+					<CompileFile command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/externals/tinyobjloader/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/externals/tinyobjloader/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/externals/tinyobjloader/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/externals/tinyobjloader"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/externals/tinyobjloader/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/externals/tinyobjloader/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/externals/tinyobjloader/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/plutoEr/Environment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/plutoEr/CLionProjects/Moer-lite/cmake-build-debug-mingw/externals/tinyobjloader/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/externals/tinyobjloader/tiny_obj_loader.cc">
+			<Option target="tinyobjloader"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/externals/tinyobjloader/tiny_obj_loader.h">
+			<Option target="tinyobjloader"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/CoreLayer/Math/Transform.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/CoreLayer/Math/Transform.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Acceleration/AABB.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Acceleration/AABB.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Acceleration/Acceleration.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Acceleration/Acceleration.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Acceleration/BVH.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Acceleration/BVH.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Acceleration/EmbreeBVH.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Acceleration/EmbreeBVH.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Acceleration/Linear.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Acceleration/Linear.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Acceleration/Octree.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Acceleration/Octree.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Camera/Camera.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Camera/Camera.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Camera/Pinhole.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Camera/Pinhole.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Film/Film.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Film/Film.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Filter/Filter.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Filter/Filter.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Integrator/DirectIntegrator.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Integrator/DirectIntegrator.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Integrator/NormalIntegrator.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Integrator/PathIntegrator.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Integrator/PathIntegrator.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Integrator/UVIntegrator.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Integrator/UVIntegrator.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Integrator/WhittedIntegrator.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Integrator/WhittedIntegrator.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Light/AreaLight.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Light/AreaLight.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Light/EnvironmentLight.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Light/EnvironmentLight.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Light/SpotLight.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Light/SpotLight.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Material/Conductor.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Material/Conductor.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Material/Dielectric.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Material/Dielectric.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Material/Material.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Material/Material.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Material/Matte.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Material/Matte.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Material/Mirror.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Material/Mirror.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Material/OrenNayar.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Material/OrenNayar.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Material/Phong.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Material/Phong.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Sampler/IndependentSampler.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Sampler/IndependentSampler.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Scene/Scene.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Scene/Scene.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Shape/Cone.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Shape/Cone.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Shape/Cube.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Shape/Cube.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Shape/Cylinder.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Shape/Cylinder.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Shape/Disk.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Shape/Disk.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Shape/Parallelogram.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Shape/Parallelogram.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Shape/Shape.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Shape/Shape.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Shape/Sphere.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Shape/Sphere.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Shape/Triangle.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Shape/Triangle.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Texture/ImageTexture.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Texture/ImageTexture.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Texture/Mipmap.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Texture/Mipmap.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Texture/NormalTexture.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Texture/NormalTexture.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Texture/Texture.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/FunctionLayer/Texture/Texture.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/ResourceLayer/FileUtil.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/ResourceLayer/FileUtil.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/ResourceLayer/Image.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/ResourceLayer/Image.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/ResourceLayer/Mesh.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/ResourceLayer/Mesh.h">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/src/main.cpp">
+			<Option target="Moer"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/../../../../Program Files (x86)/oidn-2.0.1.x64.windows/lib/cmake/OpenImageDenoise-2.0.1/OpenImageDenoiseConfig-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Program Files (x86)\oidn-2.0.1.x64.windows\lib\cmake\OpenImageDenoise-2.0.1\"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/../../../../Program Files (x86)/oidn-2.0.1.x64.windows/lib/cmake/OpenImageDenoise-2.0.1/OpenImageDenoiseConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Program Files (x86)\oidn-2.0.1.x64.windows\lib\cmake\OpenImageDenoise-2.0.1\"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/../../../../Program Files (x86)/oidn-2.0.1.x64.windows/lib/cmake/OpenImageDenoise-2.0.1/OpenImageDenoiseConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Program Files (x86)\oidn-2.0.1.x64.windows\lib\cmake\OpenImageDenoise-2.0.1\"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/externals/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\externals\"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/externals/tinyobjloader/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\externals\tinyobjloader\"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/externals/tinyobjloader/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\externals\tinyobjloader\"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/externals/tinyobjloader/tinyobjloader-config.cmake.in">
+			<Option virtualFolder="CMake Files\externals\tinyobjloader\"/>
+		</Unit>
+		<Unit filename="C:/Users/plutoEr/CLionProjects/Moer-lite/externals/tinyobjloader/tinyobjloader.pc.in">
+			<Option virtualFolder="CMake Files\externals\tinyobjloader\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

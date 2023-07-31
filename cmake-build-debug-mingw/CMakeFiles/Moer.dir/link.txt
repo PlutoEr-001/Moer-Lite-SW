@@ -1,0 +1,3 @@
+D:\JetBrains\Toolbox\apps\CLion\ch-0\232.8660.186\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\Moer.dir/objects.a
+C:\Users\plutoEr\Environment\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\mingw64\bin\ar.exe qc CMakeFiles\Moer.dir/objects.a @CMakeFiles\Moer.dir\objects1.rsp
+C:\Users\plutoEr\Environment\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Moer.dir/objects.a -Wl,--no-whole-archive -o C:\Users\plutoEr\CLionProjects\Moer-lite\target\bin\Moer.exe -Wl,--out-implib,C:\Users\plutoEr\CLionProjects\Moer-lite\target\lib\libMoer.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Moer.dir\linkLibs.rsp

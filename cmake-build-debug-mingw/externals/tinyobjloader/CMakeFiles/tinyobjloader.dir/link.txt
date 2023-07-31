@@ -1,0 +1,2 @@
+C:\Users\plutoEr\Environment\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\mingw64\bin\ar.exe qc C:\Users\plutoEr\CLionProjects\Moer-lite\target\lib\libtinyobjloader.a CMakeFiles/tinyobjloader.dir/tiny_obj_loader.cc.obj
+C:\Users\plutoEr\Environment\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\mingw64\bin\ranlib.exe C:\Users\plutoEr\CLionProjects\Moer-lite\target\lib\libtinyobjloader.a
