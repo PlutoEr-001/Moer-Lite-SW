@@ -1,1 +1,0 @@
-  -L"C:/Users/plutoEr/CLionProjects/Moer-lite/libs/win"  -L"C:/Users/plutoEr/CLionProjects/Moer-lite/target/lib"  "C:/Program Files (x86)/oidn-2.0.1.x64.windows/lib/OpenImageDenoise.lib" -lembree3 "C:/Users/plutoEr/CLionProjects/Moer-lite/target/lib/libtinyobjloader.a" -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
